@@ -7,6 +7,4 @@
 (define (hello name)
   (format #f "Hello, ~a! How are you?" name))
 
-(define )
-
 (hello "Dom")
