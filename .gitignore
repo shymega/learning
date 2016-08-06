@@ -1,0 +1,4 @@
+# Ignore Assembly output for
+# exit program
+assembly/exit.o
+assembly/exit
