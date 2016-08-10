@@ -2,3 +2,17 @@
 # exit program
 assembly/exit.o
 assembly/exit
+
+
+## Clojure ##
+clojure/scratch/target
+clojure/scratch/classes
+clojure/scratch/checkouts
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+clojure/scratch/.lein-*
+clojure/scratch/.nrepl-port
+
+## Clojure ##
