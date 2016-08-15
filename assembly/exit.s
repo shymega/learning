@@ -1,8 +1,6 @@
 	# Setup the DATA section
-	# We evidently don't use this.
 	.section .data
 	# Setup the TEXT section
-	# We evidently don't use this.
 	.section .text
 	# Make the _start section global.
 	.globl _start
