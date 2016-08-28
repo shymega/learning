@@ -1,0 +1,7 @@
+[package]
+name = "nntp-test"
+version = "0.1.0"
+authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
+
+[dependencies]
+nntp = "*"

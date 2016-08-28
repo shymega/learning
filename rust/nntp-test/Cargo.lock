@@ -1,0 +1,14 @@
+[root]
+name = "nntp-test"
+version = "0.1.0"
+dependencies = [
+ "nntp 0.0.4 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "nntp"
+version = "0.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[metadata]
+"checksum nntp 0.0.4 (registry+https://github.com/rust-lang/crates.io-index)" = "5a9a1d5460470796a864ad01d6535387cdc8edca870d973c9363ade012b625bc"
