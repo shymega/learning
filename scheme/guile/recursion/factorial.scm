@@ -1,5 +1,8 @@
 ;;; Factorial function in Scheme (GNU Guile)
 
-(define (fact n)
-  (cond ((zero? n) 1)
-        (#t (* n (fact (- n 1))))))
+(define (factorial n)
+  (cond
+   ((zero? n) 1)
+   (#t (* n
+          (factorial
+           (- n 1))))))
