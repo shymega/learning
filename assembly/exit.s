@@ -1,4 +1,4 @@
-	# Setup the DATA section
+    # Setup the DATA section
 	.section .data
 	# Setup the TEXT section
 	.section .text
