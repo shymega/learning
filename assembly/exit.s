@@ -14,7 +14,7 @@ _start:
 
 	# Move the integer '4' into the %ebx register
 	# This is the exit code for the program.
-	movl $4, %ebx
+	movl $666, %ebx
 
 	#Interrupt the program, and give Linux the control.
 	int $0x80
