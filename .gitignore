@@ -1,7 +1,12 @@
 # Ignore Assembly output for
-# exit program
 assembly/exit.o
 assembly/exit
+
+assembly/maximum.o
+assembly/maximum
+
+assembly/hello-world.o
+assembly/hello-world
 
 
 ## Clojure ##
