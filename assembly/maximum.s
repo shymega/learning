@@ -1,28 +1,29 @@
-	.section .data
+.section .data
 
 data_items:
-	.long 3,67,34,222,45,75,54,34,44,33,22,11,66,0
+.long 3,67,34,222,45,75,54,34,44,33,22,11,66,0
+    
+.section .text
+    
+.globl _start
 
-	.section .text
-
-	.globl _start
 _start:
 	movl $0, %edi
 	movl data_items(,%edi,4), %eax
 	movl %eax, %ebx
 
-start_loop:
+startloop:
 	cmpl $0, %eax
-	je loop_exit
+	je loopexit
 	incl %edi
 	movl data_items(,%edi,4), %eax
 	cmpl %ebx, %eax
-	jle start_loop
+	jle startloop
 	
 	movl %eax, %ebx
-	jmp start_loop
+	jmp startloop
 
-loop_exit:
+loopexit:
 	movl $1, %eax
 	int $0x80
 	
