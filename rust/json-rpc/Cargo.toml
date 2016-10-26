@@ -1,0 +1,14 @@
+[package]
+name = "json-rpc"
+version = "0.1.0"
+authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
+
+[[bin]]
+name = "jsonrpc"
+path = "src/main.rs"
+
+[dependencies]
+jsonrpc-core = "3.0"
+serde = "0.8"
+serde_derive = "0.8"
+serde_json = "0.8" 
