@@ -1,5 +1,5 @@
 [root]
-name = "tarpc"
+name = "json-rpc"
 version = "0.1.0"
 dependencies = [
  "jsonrpc-core 3.0.2 (registry+https://github.com/rust-lang/crates.io-index)",
