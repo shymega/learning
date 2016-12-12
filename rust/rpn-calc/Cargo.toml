@@ -1,0 +1,6 @@
+[package]
+name = "rpn-calc"
+version = "0.1.0"
+authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
+
+[dependencies]
