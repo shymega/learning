@@ -23,4 +23,8 @@ clojure/scratch/.nrepl-port
 # Rust NNTP-test
 rust/nntp-test/target
 
+## Rust
 **/target/
+
+## Erlang
+*.beam
