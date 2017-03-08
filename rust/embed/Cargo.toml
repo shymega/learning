@@ -1,0 +1,10 @@
+[package]
+name = "embed"
+version = "0.1.0"
+authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
+
+[lib]
+name = "embed"
+crate-type = ["dylib", "rlib", "staticlib"]
+
+[dependencies]
