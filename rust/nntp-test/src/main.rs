@@ -8,7 +8,6 @@ fn main() {
         Err(e) => panic!("{}", e),
     };
 
-
     match nntp_stream.capabilities() {
         Ok(lines) => {
             for line in lines.iter() {
@@ -27,7 +26,6 @@ fn main() {
             println!("ERR: :: {}", e);
         }
     };
-
 
     let _ = nntp_stream.quit();
 }

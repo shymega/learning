@@ -1,3 +1,5 @@
+main: exit hello-world
+
 exit:
 		nasm -f elf64 -o exit.o exit.asm
 		ld exit.o -o exit
