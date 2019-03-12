@@ -2,12 +2,8 @@
 assembly/exit.o
 assembly/exit
 
-assembly/maximum.o
-assembly/maximum
-
 assembly/hello-world.o
 assembly/hello-world
-
 
 ## Clojure ##
 clojure/scratch/target
@@ -20,11 +16,10 @@ pom.xml.asc
 clojure/scratch/.lein-*
 clojure/scratch/.nrepl-port
 
-# Rust NNTP-test
-rust/nntp-test/target
-
 ## Rust
 **/target/
 
 ## Erlang
 *.beam
+
+a.out
