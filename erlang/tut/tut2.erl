@@ -1,8 +1,7 @@
 -module(tut2).
--export([convert/2]).
+-export([convert/1]).
 
-convert(M, inch) ->
+convert({in, M}) ->
     M / 2.54;
-convert(N, centimeter) ->
-    N * 2.54.
-
+convert({cm, M}) ->
+    M * 2.54.

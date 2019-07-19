@@ -15,6 +15,3 @@ convert_to_celsius({Name, {f, Temp}}) ->
 print_temp({Name, {c, Temp}}) ->
     io:format("~-15w ~w c~n",
               [Name, Temp]).
-
-
-
