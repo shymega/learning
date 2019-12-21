@@ -1,17 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main() {
+int main(void) {
     for (int i = 1; i <= 100; i++) {
         if (i % 15 == 0) {
-            printf("FizzBuzz\n");
+            fprintf(stdout, "FizzBuzz\n");
         } else if (i % 3 == 0) {
-            printf("Fizz\n");
+            fprintf(stdout, "Fizz\n");
         } else if (i % 5 == 0) {
-            printf("Buzz\n");
+            fprintf(stdout, "Buzz\n");
         } else {
-            printf("%d\n", i);
+            fprintf(stdout, "%d\n", i);
         }
     }
 
-    return 0;
+    return EXIT_SUCCESS;
 }
